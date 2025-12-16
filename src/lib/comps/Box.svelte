@@ -95,7 +95,7 @@
 		padding-inline: 20px;
 		border-left: 1px solid black;
 		border-right: 1px solid black;
-		max-height: calc(100dvh + 20px);
+		max-height: calc(100lvh + 20px);
 		margin-top: -10px;
 		overflow-y: scroll;
 		overflow-x: hidden;
@@ -124,8 +124,8 @@
 			width: 100%;
 			border-top: dotted 2px black;
 		}
-		h1{
-		margin-top: 0px;
+		h1 {
+			margin-top: 0px;
 		}
 		p {
 			margin: 0px;
