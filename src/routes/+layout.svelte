@@ -1,5 +1,5 @@
 <script lang="ts">
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/logo.svg';
 	import Box from '$lib/comps/Box.svelte';
 	import '$lib/scss/global.scss';
 	import type { LayoutProps } from './$types';
@@ -32,8 +32,8 @@
 
 <style lang="scss">
 	main {
-		max-height: 100dvh;
-		height: 100dvh;
+		max-height: 100lvh;
+		height: 100lvh;
 		display: flex;
 		width: 100dvw;
 		overflow-y: hidden;
